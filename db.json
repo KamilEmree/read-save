@@ -1,0 +1,14 @@
+{
+  "BookData": [
+    {
+      "BookName": "Example",
+      "WriterName": "Example",
+      "Description": "Lorem İpsum Dolar Sit Amet.",
+      "BookType": "Mystery",
+      "MentionBook": "Lorem İpsum Dolar Sit Amet. Lorem İpsum Dolar Sit Amet. Lorem İpsum Dolar Sit Amet. Lorem İpsum Dolar Sit Amet.",
+      "DataDate": "2022-03-10T21:42:53.677Z",
+      "Completed": true,
+      "id": 1
+    }
+  ]
+}

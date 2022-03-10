@@ -1,24 +1,18 @@
-# read-to-save
+# Welcome to Read & Save Project
 
-## Project setup
-```
-npm install
-```
+İn this project , you can save the books you read forever.
+## Use
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- Escribe the book you want to add from the add-page section.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Then view it from list-page
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Some Screenshots From The Project
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[List-Page](./src/assets/ScreenShot.png)
+
+[Add-Page](./src/assets/ScreenShot2.png)
+## Requirements
+See For Vue Cli [Vue](https://cli.vuejs.org/config/).
+
+See For Fake Api [Json-Server](https://github.com/typicode/json-server).

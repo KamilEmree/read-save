@@ -1,0 +1,477 @@
+*  {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+} 
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #022949;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #011627;
+}
+
+.Container {
+    height: 100%;
+    margin: .8rem 0;
+    padding: 1rem;
+    color: #000;
+}
+
+#Navbar {
+    background-color: #E71D36;
+    color: #fff;
+}
+
+#Navbar-Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+#Navbar-İcon {
+    cursor: pointer;
+    padding: 8px;
+    transition: .4s;
+}
+
+#Navbar-İcon:hover , #Navbar-İcon:active {
+    background-color: #011627;
+    border-radius: 100%;
+}
+
+#Container {
+    background-color: #011627;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 300px;
+    z-index: 1;
+}
+
+#Xmark-Section{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#Navbar-X {
+    color: #fff;
+    font-size: 20px;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #E71D36;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: .3s all;
+}
+
+#Navbar-X:hover , #Navbar-x:active {
+    background-color: #b31628;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+.Page-Link{
+    padding: .4rem 0;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.Page-Link:hover , .Page-Link:active{
+    transition: .3s all;
+    background-color: #faf0ca;
+    color: #000;
+}
+
+#Add-Head , #List-Head {
+    text-align: center;
+    font-weight: 400;
+}
+
+#Save-Head , #List-Empty {
+    background-color: #2f3542;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: .4rem;
+}
+
+#Form-Section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem 10rem;
+}
+
+.Add-İnputs {
+    color: #32444b;
+    font-size: 17px;
+    padding: .2rem .2rem;
+    flex: 1 0 40%;   
+    margin: 2rem 2rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #608591;
+    transition: .4 ease-in-out;
+}
+
+.Book-Opt {
+    color: #4b666e;
+}
+
+#Button-Section {
+    width: 100%;
+    display: flex;     
+    flex-direction: column;      
+    justify-content: center;
+}
+
+#Submit-Book {
+    font-size: 18px;
+    margin: .5rem 12rem;
+    padding: .5rem 0;
+    background-color: #01233f;
+    color: #fff;
+    border: none;
+}
+
+#Submit-Book:hover , #Submit-Book:active  {
+    background-color: #001a30;
+    cursor: pointer;
+}
+
+#Save-Date {
+    flex-basis: 50%;
+    text-align: center;
+    border: none;
+    padding: .6rem;
+    background-color: rgb(209, 209, 209);
+    color: #000;
+}
+
+#Book-Date {
+    display: inline-block;
+    margin: .2rem;
+}
+
+#Card-List {
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255); /*#fdfffc*/
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#Card-Content {
+    list-style: none;
+    margin: 1rem 3rem;
+}
+
+#Card-İtem {
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 0;
+}
+
+
+#Card-Left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 2rem 2rem;
+    background-color: #152941;
+    color: #fff;
+    transition: all .4s;
+}
+
+#Card-Left:hover {
+    background-color: #133c55;
+}
+
+#Card-Type {
+    font-size: 30px;
+}
+
+#Card-Description {
+    font-size: 15px;
+}
+
+#Card-Right {
+    width: 100%;
+    padding: 2rem 2rem;
+    background-color: #e7ecef;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#Card-Headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Card-Title {
+    font-weight: 400;
+}
+
+#Card-Writer {
+    color: #5f5f5f;
+    font-weight: 400;
+}
+
+#Card-Mention {
+    font-size: 18px;
+    margin-top: 2rem;
+}
+
+#Card-Footer {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 4rem;
+}
+
+#Card-Date {
+    font-size: 20px;
+    font-weight: 500;
+    padding: .5rem .5rem;
+}
+
+#Card-İcon {
+    font-size: 20px;
+    background-color: #e7ecef;
+    color: #000;
+    border-radius: 100%;
+    padding: .5rem .5rem;
+    transition: all.4s;
+}
+
+#Card-İcon:hover , #Card-İcon:active {
+    cursor: pointer;
+    background-color: #E71D36;
+    color: #fff;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1000px){
+    
+    #Add-Head , #List-Head {
+        font-size: 25px;
+    }
+    
+    #Container {
+        height: 100%;
+        width: 100%;
+    }
+
+    #Navbar-Content {
+        font-size: 1.2rem;
+    }
+
+    #Form-Section {
+        margin: 1rem 8rem;
+    }
+
+    #Submit-Book {
+        margin: .5rem 10rem;
+    }
+
+    #Card-İtem {
+        display: block;
+        margin: 3rem 0;
+    }
+    
+    #Card-Left {
+        width: 100%;
+        min-height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    #Card-Right {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    #Card-Type {
+        font-size: 25px;
+    }
+
+    #Card-Title {
+        font-weight: 400;
+        font-size: 22px;
+    }
+    
+    #Card-Writer {
+        color: #5f5f5f;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    #Card-Description {
+        font-size: 14px;
+    }
+
+    #Card-Mention {
+        font-size: 14px;
+        margin-top: 2rem;
+    }
+    
+    #Card-Date {
+        font-size: 16px;
+    }
+    
+    #Card-İcon {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+
+    #Navbar-Content {
+        font-size: 1rem;
+    }
+
+    #Form-Section {
+        margin: 1rem 6rem;
+    }
+
+    #Submit-Book {
+        margin: .5rem 8rem;
+    }
+
+    #Card-Type {
+        font-size: 22px;
+    }
+
+    #Card-Title {
+        font-weight: 400;
+        font-size: 20px;
+    }
+    
+    #Card-Writer {
+        color: #5f5f5f;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    #Card-Description {
+        font-size: 14px;
+    }
+
+    #Card-Mention {
+        font-size: 14px;
+        margin-top: 2rem;
+    }
+    
+    #Card-Date {
+        font-size: 13px;
+    }
+    
+    #Card-İcon {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 540px){
+
+    #Form-Section {
+        margin: 1rem 2rem;
+    }
+
+    #Submit-Book {
+        margin: .5rem 4rem;
+    }
+
+    .Add-İnputs {
+        font-size: 15px;
+    }
+
+    #Card-Headers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Card-Writer {
+        margin-top: .4rem;
+    }
+
+    #Card-Footer {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin-top: 2rem;
+    }
+
+    #Card-Date {
+        display: flex;
+        justify-content: center;
+        flex: 1 0 30%;   
+        font-size: 12px;
+    }
+    
+    #Card-İcon {
+        margin-top: .5rem;
+        border-radius: 10px;
+        padding: .4rem 5rem;
+        background-color: #E71D36;
+        font-size: 12px;
+        color: #fff;
+    }
+
+    #Card-İcon:active {
+        background-color: #b31628;
+        color: #f1f1f1;
+    }
+
+}
+
+@media screen and (max-width: 340px){
+
+    #Navbar-Content {
+        font-size: .9rem;
+    }
+
+    #Form-Section {
+        margin: 1rem 0;
+    }
+
+    #Submit-Book {
+        margin: .5rem 2rem;
+    }
+
+}
